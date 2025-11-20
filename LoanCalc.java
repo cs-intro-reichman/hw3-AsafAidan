@@ -23,7 +23,7 @@ public class LoanCalc {
 		System.out.print("\nPeriodical payment, using bi-section search: ");
 		System.out.println((int) bisectionSolver(loan, rate, n, epsilon));
 		System.out.println("number of iterations: " + iterationCounter);
-		
+
 		// testing endBalance function
 	    //System.out.println(endBalance(100000, 5, 10,10000 ));
 	}
@@ -69,7 +69,7 @@ public class LoanCalc {
 
 			}	else {
 					H = g;
-			}
+				}
 			iterationCounter++;
 		}
 		return g;

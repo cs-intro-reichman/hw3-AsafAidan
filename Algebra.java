@@ -67,7 +67,7 @@ public class Algebra {
 			}
 		}
 				
-	return ans;
+		return ans;
 	}
 	// Returns x^n (for n >= 0)
 	public static int pow(int x, int n) {
